@@ -1,8 +1,13 @@
+@font-face {
+    font-family: 'Artega';
+    src: url('assets/fonts/artega.otf');
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Artega';
     scroll-behavior: smooth;
 }
 
@@ -14,9 +19,7 @@
 /* Hide scrollbar for IE, Edge and Firefox */
 * {
     -ms-overflow-style: none;
-    /* IE and Edge */
     scrollbar-width: none;
-    /* Firefox */
 }
 
 header {
@@ -26,4 +29,9 @@ header {
     left: 0;
     right: 0;
     z-index: 2;
+}
+
+p {
+    color: black;
+    font-size: Artega;
 }
