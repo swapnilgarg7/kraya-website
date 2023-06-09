@@ -74,7 +74,7 @@ p {
 
 
 /* For smaller screens */
-@media screen and (max-width: 400px) {
+@media (max-width: 400px) {
     .main-slogan{
         font-size: 5rem;
     }
@@ -83,4 +83,9 @@ p {
         font-size: 1rem;
     }
 }
+
+
+
+
+
 
