@@ -3,7 +3,15 @@
     src: url('assets/fonts/artega.otf');
 }
 
+:root {
+    --primary-color: #F2C747;
+    --secondary-color: #FFFFFF;
+    --accent-color: #9F9F9F;
+    --background-color: #1F1F1F;
+}
+
 * {
+    background-color: var(--background-color);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -29,4 +37,44 @@ header {
     left: 0;
     right: 0;
     z-index: 2;
+}
+
+/* */
+.hero {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.main-slogan {
+    color: var(--primary-color);
+    font-size: 7rem;
+    line-height: 1;
+}
+
+.intro {
+    color: var(--secondary-color);
+    font-size: 1.25rem;
+}
+
+.intro-text {
+    width: 80%;
+    margin-top: 20px;
+
+}
+
+.hero>* {
+    margin-inline-start: 5%;
+}
+
+
+/* For smaller screens */
+@media (max-width: 400px) {
+    .main-slogan {
+        font-size: 5rem;
+    }
+
+    .intro {
+        font-size: 1rem;
+    }
 }
