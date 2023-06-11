@@ -78,3 +78,46 @@ header {
         font-size: 1rem;
     }
 }
+
+.heading {
+    text-align: center;
+    font-size: 48px;
+    color: var(--secondary-color);
+    padding: 5rem 1rem 1rem 1rem;
+    font-weight: 500;
+}
+
+.sub-text {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: var(--secondary-color);
+    font-weight: 400;
+}
+
+.frame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4rem;
+    gap: 97px;
+}
+
+.step-1, .step-2, .step-3 {
+    width: 33%;
+} 
+
+.frame img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.frame p {
+    text-align: center;
+    color: var(--secondary-color);
+    padding-top: 1.5rem;
+}
+
+#description {
+    font-family: sans-serif; 
+}
