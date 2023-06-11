@@ -31,24 +31,25 @@
 }
 
 header {
-    background-color: black;
+    background-color: var(--background-color);
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    height: 15%;
     z-index: 2;
 }
 
 /* */
 .hero {
-    margin-top: 100px;
+    padding-top: 200px;
     display: flex;
     position: relative;
 }
 
 .main-slogan {
     color: var(--primary-color);
-    font-size: 7rem;
+    font-size: 6rem;
     line-height: 1;
 }
 
@@ -63,8 +64,13 @@ header {
 
 }
 
+.intro-img {
+    max-height: 600px;
+    margin-top: 0px;
+}
+
 .hero>* {
-    margin-inline-start: 5%;
+    margin-inline-start: 2%;
 }
 
 .downArrow {
