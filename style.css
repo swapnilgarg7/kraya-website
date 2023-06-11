@@ -121,3 +121,36 @@ header {
 #description {
     font-family: sans-serif; 
 }
+
+.steps {
+    position: relative;
+}
+
+.star1 {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.star2 {
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+}
+
+.star3 {
+    position: absolute;
+    top: 175px;
+    right: 30px;
+}
+
+.star4 {
+    position: absolute;
+    bottom: 170px;
+    left: 30px;
+}
+
+
+.blank {
+    height: 200px;
+}
