@@ -167,5 +167,91 @@ header {
 
 
 .blank {
-    height: 160px;
+    height: 200px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+.cap{
+    color: var(--secondary-color);
+    font-size: 36px;
+    font-weight: 600;
+    font-family: sans-serif;
+
+}
+
+.email {
+    
+    font-family: sans-serif;
+    size: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    padding-left: 20px;
+    background-color: #7c7c7c;
+    color: var(--secondary-color);
+    border-radius: 30px;
+    height: 51px;
+    width: 358px;
+    border: none;
+}
+
+button {
+    background-color: var(--primary-color);
+    font-family: sans-serif;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 24px;
+    height: 51px;
+    width: 142px;
+    align-items: center;
+    text-align: center;
+    border: none;
+}
+
+.signup {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    gap: 10px;
+}
+
+.logo {
+    height: 2%;
+    width: auto;
+    object-fit: contain;
+}
+
+.soc-med {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 2rem 0 0 1rem;
+}
+
+.soc-med img {
+    border-radius: 9999px;
+    border-width: 2px;
+    border-color: var(--secondary-color);
+}
+
+.contact{
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+
+.contact p{
+    font-family: sans-serif;
+    color: var(--secondary-color);
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
 }
