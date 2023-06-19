@@ -29,7 +29,7 @@ body {
 }
 
 header {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   position: fixed;
   top: 0;
   left: 0;
@@ -93,7 +93,7 @@ header {
   padding-top: 50px;
 }
 
-.social>p {
+.social > p {
   width: auto;
   height: auto;
   font-size: 23vmin;
@@ -109,7 +109,7 @@ header {
   align-items: center;
 }
 
-.selling>p {
+.selling > p {
   width: auto;
   height: auto;
   font-size: 23vmin;
@@ -127,7 +127,7 @@ header {
   padding-bottom: 50px;
 }
 
-.simple>p {
+.simple > p {
   margin-left: 2vmin;
   width: auto;
   height: auto;
@@ -135,21 +135,12 @@ header {
   margin-top: 10vmin;
 }
 
-/* .made {
-  grid-column: 2 / span 1;
-  grid-row: 4 / span 1;
-  color: #f2c747;
-  display: flex;
-  justify-content: right;
-  align-items: center;
-} */
-
 .madeContent {
   width: 2.3vmin;
   color: #f2c747;
 }
 
-.madeContent>p {
+.madeContent > p {
   width: 1px;
   height: auto;
   font-size: 1vmin;
@@ -195,8 +186,8 @@ header {
 
 .heading {
   text-align: center;
-  font-size: 48px;
-  color: black;
+  font-size: 5vmin;
+  color: var(--secondary-color);
   padding: 5rem 1rem 1rem 1rem;
   font-weight: 500;
 }
@@ -204,33 +195,33 @@ header {
 .sub-text {
   text-align: center;
   font-family: sans-serif;
-  font-size: 24px;
-  color: black;
+  font-size: 2vmin;
+  color: var(--secondary-color);
   font-weight: 400;
 }
 
 .star1 {
   position: absolute;
-  top: 50px;
-  right: 50px;
-}
-
-.star2 {
-  position: absolute;
-  bottom: 40px;
-  left: 50px;
+  top: 6%;
+  right: 4%;
 }
 
 .star3 {
   position: absolute;
-  top: 175px;
-  right: 30px;
+  bottom: 5%;
+  left: 4%;
+}
+
+.star2 {
+  position: absolute;
+  top: 21%;
+  right: 2%;
 }
 
 .star4 {
   position: absolute;
-  bottom: 170px;
-  left: 30px;
+  bottom: 20%;
+  left: 2%;
 }
 
 .frame {
@@ -238,21 +229,17 @@ header {
   flex-direction: row;
   align-items: flex-start;
   padding: 4rem;
-  gap: 97px;
+  gap: 5rem;
   width: 100%;
-  height: 200px;
+  height: 70%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .step-1,
 .step-2,
 .step-3 {
   width: 33%;
-}
-
-.blank {
-  height: 160px;
-  background-color: #f2c747;
-  position: relative;
 }
 
 .frame img {
@@ -262,18 +249,17 @@ header {
 
 .frame p {
   text-align: center;
-  color: black;
+  color: var(--secondary-color);
   padding-top: 1.5rem;
 }
 
 #description {
   font-family: sans-serif;
-  color: black;
 }
 
 .bottomStar {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   width: 100%;
   z-index: 1;
   background-size: contain;
@@ -282,6 +268,7 @@ header {
 
 .positioner {
   background-size: contain;
+
   overflow: hidden;
   width: 8%;
   margin-left: 89%;
@@ -299,14 +286,14 @@ header {
 .whyTitle {
   position: relative;
   background-color: #1f1f1f;
-  height: 20%;
+  height: 30%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.whyTitle>p {
+.whyTitle > p {
   margin-top: 4vmin;
   color: #f2c747;
   width: auto;
@@ -320,11 +307,9 @@ header {
 }
 
 .large {
-  width: 8%;
   position: absolute;
+  width: 8%;
   right: 3%;
-  top: 25%;
-  z-index: 1;
 }
 
 .whyOuter {
@@ -332,6 +317,7 @@ header {
   background-color: #1f1f1f;
   width: 100%;
   height: 85%;
+  z-index: 0;
 }
 
 .why {
@@ -343,6 +329,102 @@ header {
   grid-template: 30% 50% 20% / 33% 34% 33%;
   gap: 0;
   margin: auto;
+}
+
+.leftStars {
+  position: relative;
+  height: 5%;
+  width: 100%;
+  background-color: #1f1f1f;
+  overflow: visible;
+  z-index: 1;
+  display: flex;
+}
+
+.leftStarPositioner {
+  width: fit-content;
+  height: fit-content;
+  z-index: 1;
+  overflow: visible;
+  z-index: 1;
+}
+
+.leftStarPositioner img {
+  height: 25vmin;
+  width: auto;
+  margin-top: -13vmin;
+  margin-left: -50%;
+  overflow: visible;
+  object-fit: contain;
+  z-index: 1;
+}
+
+.smallStarPositioner {
+  width: fit-content;
+  height: fit-content;
+  z-index: 1;
+  overflow: visible;
+  z-index: 1;
+}
+
+.smallStarPositioner img {
+  height: 5vmin;
+  width: auto;
+  margin-top: -3.1vmin;
+  margin-left: -3vmin;
+  overflow: visible;
+  object-fit: contain;
+  z-index: 1;
+}
+
+.rightStars {
+  position: relative;
+  height: 5%;
+  width: 100%;
+  background-color: #1f1f1f;
+  overflow: visible;
+  z-index: 1;
+  display: flex;
+  /* align-items: flex-end;
+  flex-direction: column; */
+  justify-content: flex-end;
+}
+
+.rightStarPositioner {
+  width: fit-content;
+  height: fit-content;
+  z-index: 1;
+  overflow: visible;
+  z-index: 1;
+}
+
+.rightStarPositioner img {
+  height: 25vmin;
+  width: auto;
+  margin-top: -13vmin;
+  margin-left: 50%;
+  overflow: visible;
+  object-fit: contain;
+  z-index: 1;
+}
+
+.smallStarPositioner2 {
+  width: fit-content;
+  height: fit-content;
+  z-index: 1;
+  overflow: visible;
+  z-index: 1;
+}
+
+.smallStarPositioner2 img {
+  height: 5vmin;
+  width: auto;
+  margin-top: -3.1vmin;
+  margin-left: 3vmin;
+  margin-right: -3vmin;
+  overflow: visible;
+  object-fit: contain;
+  z-index: 1;
 }
 
 .image {
@@ -416,7 +498,6 @@ header {
 }
 
 .email {
-
   font-family: sans-serif;
   size: 30px;
   font-size: 16px;
@@ -424,7 +505,7 @@ header {
   font-style: normal;
   padding-left: 20px;
   background-color: #7c7c7c;
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 30px;
   height: 51px;
   width: 358px;
@@ -471,7 +552,7 @@ button {
 .soc-med img {
   border-radius: 9999px;
   border-width: 2px;
-  border-color: #FFFFFF;
+  border-color: #ffffff;
 }
 
 .contact {
@@ -481,7 +562,7 @@ button {
 
 .contact p {
   font-family: sans-serif;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 20px;
   font-weight: 500;
   font-style: normal;
@@ -497,7 +578,26 @@ button {
 .visit {
   margin-top: 10px;
   background-color: black;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: sans-serif;
   font-size: small;
+}
+
+.whyStar1 {
+  position: absolute;
+  top: 4vmin;
+  /* right: 8.3vmin; */
+  right: 5.8%;
+}
+
+.whyStar2 {
+  position: absolute;
+  top: 30vmin;
+  /* right: 8.3vmin; */
+  right: 5%;
+}
+
+.whyStar2 img {
+  width: 50%;
+  height: auto;
 }
