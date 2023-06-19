@@ -135,6 +135,15 @@ header {
   margin-top: 10vmin;
 }
 
+/* .made {
+  grid-column: 2 / span 1;
+  grid-row: 4 / span 1;
+  color: #f2c747;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+} */
+
 .madeContent {
   width: 2.3vmin;
   color: #f2c747;
@@ -290,7 +299,7 @@ header {
 .whyTitle {
   position: relative;
   background-color: #1f1f1f;
-  height: 30%;
+  height: 20%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -311,9 +320,11 @@ header {
 }
 
 .large {
-  position: absolute;
   width: 8%;
+  position: absolute;
   right: 3%;
+  top: 25%;
+  z-index: 1;
 }
 
 .whyOuter {
@@ -321,7 +332,6 @@ header {
   background-color: #1f1f1f;
   width: 100%;
   height: 85%;
-  z-index: 0;
 }
 
 .why {
@@ -333,102 +343,6 @@ header {
   grid-template: 30% 50% 20% / 33% 34% 33%;
   gap: 0;
   margin: auto;
-}
-
-.leftStars {
-  position: relative;
-  height: 5%;
-  width: 100%;
-  background-color: #1f1f1f;
-  overflow: visible;
-  z-index: 1;
-  display: flex;
-}
-
-.leftStarPositioner {
-  width: fit-content;
-  height: fit-content;
-  z-index: 1;
-  overflow: visible;
-  z-index: 1;
-}
-
-.leftStarPositioner img {
-  height: 25vmin;
-  width: auto;
-  margin-top: -13vmin;
-  margin-left: -50%;
-  overflow: visible;
-  object-fit: contain;
-  z-index: 1;
-}
-
-.smallStarPositioner {
-  width: fit-content;
-  height: fit-content;
-  z-index: 1;
-  overflow: visible;
-  z-index: 1;
-}
-
-.smallStarPositioner img {
-  height: 5vmin;
-  width: auto;
-  margin-top: -3.1vmin;
-  margin-left: -3vmin;
-  overflow: visible;
-  object-fit: contain;
-  z-index: 1;
-}
-
-.rightStars {
-  position: relative;
-  height: 5%;
-  width: 100%;
-  background-color: #1f1f1f;
-  overflow: visible;
-  z-index: 1;
-  display: flex;
-  /* align-items: flex-end;
-  flex-direction: column; */
-  justify-content: flex-end;
-}
-
-.rightStarPositioner {
-  width: fit-content;
-  height: fit-content;
-  z-index: 1;
-  overflow: visible;
-  z-index: 1;
-}
-
-.rightStarPositioner img {
-  height: 25vmin;
-  width: auto;
-  margin-top: -13vmin;
-  margin-left: 50%;
-  overflow: visible;
-  object-fit: contain;
-  z-index: 1;
-}
-
-.smallStarPositioner2 {
-  width: fit-content;
-  height: fit-content;
-  z-index: 1;
-  overflow: visible;
-  z-index: 1;
-}
-
-.smallStarPositioner2 img {
-  height: 5vmin;
-  width: auto;
-  margin-top: -3.1vmin;
-  margin-left: 3vmin;
-  margin-right: -3vmin;
-  overflow: visible;
-  object-fit: contain;
-  z-index: 1;
 }
 
 .image {
@@ -487,21 +401,103 @@ header {
   line-height: 4vmin;
 }
 
-.whyStar1 {
-  position: absolute;
-  top: 4vmin;
-  /* right: 8.3vmin; */
-  right: 5.8%;
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+  background-color: #1f1f1f;
 }
 
-.whyStar2 {
-  position: absolute;
-  top: 30vmin;
-  /* right: 8.3vmin; */
-  right: 5%;
+.cap {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 600;
+  font-family: sans-serif;
 }
 
-.whyStar2 img {
-  width: 50%;
-  height: auto;
+.email {
+
+  font-family: sans-serif;
+  size: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  padding-left: 20px;
+  background-color: #7c7c7c;
+  color: #FFFFFF;
+  border-radius: 30px;
+  height: 51px;
+  width: 358px;
+  border: none;
+}
+
+button {
+  background-color: #f2c747;
+  font-family: sans-serif;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 24px;
+  height: 51px;
+  width: 142px;
+  align-items: center;
+  text-align: center;
+  border: none;
+}
+
+.signup {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  gap: 10px;
+}
+
+.logo {
+  height: 2%;
+  width: auto;
+  object-fit: contain;
+}
+
+.soc-med {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 2rem 0 0 1rem;
+}
+
+.soc-med img {
+  border-radius: 9999px;
+  border-width: 2px;
+  border-color: #FFFFFF;
+}
+
+.contact {
+  padding-top: 130px;
+  padding-bottom: 50px;
+}
+
+.contact p {
+  font-family: sans-serif;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.cta {
+  background-color: #f2c747;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.visit {
+  margin-top: 10px;
+  background-color: black;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  font-size: small;
 }
