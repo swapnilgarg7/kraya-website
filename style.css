@@ -6,7 +6,7 @@
 :root {
     --primary-color: #F2C747;
     --secondary-color: #FFFFFF;
-    --accent-color: #9F9F9F;
+    --accent-color: #302e2e;
     --background-color: #1F1F1F;
 }
 
@@ -82,15 +82,28 @@ header {
 
 
 /* For smaller screens */
-@media (max-width: 400px) {
+@media (max-width: 650px) {
     .main-slogan {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     .intro {
         font-size: 1rem;
     }
 }
+
+@media (max-width: 1000px) {
+
+    /* Hide holding image*/
+    .intro-img {
+        height: 0;
+    }
+
+    .downArrow {
+        visibility: hidden;
+    }
+}
+
 
 .heading {
     text-align: center;
@@ -168,4 +181,291 @@ header {
 
 .blank {
     height: 160px;
+}
+
+.curated-content {
+    border-radius: 25px;
+}
+
+/* Styles for seamless section of the webpage */
+.seamless-header {
+    display: flex;
+    font-size: 3rem;
+    margin-inline: 2%;
+}
+
+.seamless-header>* {
+    flex: 1 1 auto;
+    display: grid;
+    align-content: center;
+}
+
+.seamless-star {
+    justify-content: right;
+}
+
+.seamless-heading {
+    color: var(--primary-color);
+}
+
+.seamless-intro {
+    font-size: 0.75rem;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+/* Styles for seamless grid */
+.seamless-grid * {
+    background-color: var(--accent-color);
+}
+
+.seamless-grid {
+    margin-inline: 10%;
+    margin-top: 50px;
+    display: grid;
+    color: white;
+    gap: 25px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.seamless-grid>* {
+    box-shadow: 14px 4px rgba(0, 0, 0, 0.73);
+    border-radius: 25px;
+}
+
+.seamless-blank {
+    height: 200px;
+}
+
+/* Styling individual grid cells */
+
+/* First Grid Cell */
+.curated-finds {
+    grid-column: span 2;
+}
+
+.img-wrapper>img {
+    max-width: 80%;
+    aspect-ratio: 1 / 1.16;
+    object-fit: cover;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.curated-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 2rem;
+}
+
+.curated-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: 10%;
+}
+
+.seamless-info-text,
+.assured-info-text {
+    font-size: 0.75rem;
+}
+
+.seamless-info-text {
+    margin-right: 45%;
+}
+
+.img-wrapper {
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Second grid cell */
+
+.seamless-cell {
+    grid-row: span 2;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.seamless-cell>* {
+    margin-inline: 10%;
+}
+
+.assured-img>img {
+    max-width: 100%;
+    aspect-ratio: 1.56 / 1;
+    object-fit: cover;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.seamless-cell-text {
+    font-size: 0.75rem;
+    margin-bottom: 5%;
+}
+
+/* Third Grid Cell */
+
+.buy-in {
+    grid-row: span 3;
+}
+
+.buy-in-img>img {
+    max-width: 100%;
+    aspect-ratio: 0.63 / 1;
+    object-fit: cover;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.buy-in-img {
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+}
+
+/* Fourth Grid CelL */
+
+.delivery-img>img {
+    max-width: 100%;
+    aspect-ratio: 2.46 / 1;
+    object-fit: cover;
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+.delivery-text {
+    margin-right: 40%;
+}
+
+.delivery-header {
+    margin-right: 30%;
+}
+
+/*Final Grid Cell */
+
+.visit-app {
+    grid-row: span 1;
+}
+
+.visit-app-header {
+    margin: 5% 20%;
+}
+
+.web-app-btn {
+    background-color: var(--primary-color);
+    width: 30%;
+    margin-left: 20%;
+    border-radius: 50px;
+    padding: 16px 5px;
+    margin-bottom: 10%;
+}
+
+.cta {
+    background-color: #f2c747;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.visit {
+    margin-top: 10px;
+    background-color: black;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.cta h1 {
+    background-color: transparent;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+.cap {
+    color: var(--secondary-color);
+    font-size: 36px;
+    font-weight: 600;
+    font-family: sans-serif;
+
+}
+
+.email {
+
+    font-family: sans-serif;
+    size: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    padding-left: 20px;
+    background-color: #7c7c7c;
+    color: var(--secondary-color);
+    border-radius: 30px;
+    height: 51px;
+    width: 358px;
+    border: none;
+}
+
+button {
+    background-color: var(--primary-color);
+    font-family: sans-serif;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 24px;
+    height: 51px;
+    width: 142px;
+    align-items: center;
+    text-align: center;
+    border: none;
+}
+
+.signup {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    gap: 10px;
+}
+
+.logo {
+    height: 2%;
+    width: auto;
+    object-fit: contain;
+}
+
+.soc-med {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 2rem 0 0 1rem;
+}
+
+.soc-med img {
+    border-radius: 9999px;
+    border-width: 2px;
+    border-color: var(--secondary-color);
+}
+
+.contact {
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+
+.contact p {
+    font-family: sans-serif;
+    color: var(--secondary-color);
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
 }
