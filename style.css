@@ -544,3 +544,31 @@ button {
   font-weight: 500;
   font-style: normal;
 }
+.navbar{
+  background-color: #1f1f1f;
+  display:flex;
+  justify-content: space-between;
+  padding: 30px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.left{
+  color:#f2c747;
+  
+}
+.right ul{
+  color:#ffffff;
+  display:flex;
+  align-items: center;
+  list-style-type: none;
+}
+.right li{
+  margin-left:20px;
+}
+.btn{
+  color:#1f1f1f;
+  background-color: #f2c747;
+  padding:15px;
+  border-radius: 240px;
+
+}

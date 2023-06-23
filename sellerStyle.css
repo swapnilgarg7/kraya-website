@@ -482,19 +482,19 @@ header {
   font-style: normal;
   padding-left: 20px;
   background-color: #7c7c7c;
-  color: #ffffff;
-  border-radius: 30px;
-  height: 51px;
-  width: 358px;
-  border: none;
-}
+    color: #ffffff;
+    border-radius: 30px;
+    height: 51px;
+    width: 358px;
+    border: none;
+  }
 
-button {
-  background-color: #f2c747;
-  font-family: sans-serif;
-  border-radius: 30px;
-  font-size: 16px;
-  font-weight: 600;
+  button {
+    background-color: #f2c747;
+    font-family: sans-serif;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
   font-style: normal;
   line-height: 24px;
   height: 51px;
