@@ -648,3 +648,87 @@ button {
 .onboardText {
   font-size: 3vmin;
 }
+
+.container {
+  background-color: #1f1f1f;
+}
+
+.container .title {
+  color: #f2c747;
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 4rem;
+}
+
+.faqs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 0 1.5rem;
+  
+}
+
+.ques {
+  background-color: #313131;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding: 25px;
+}
+
+.q {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #ffffff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  transition: 650ms;
+}
+
+
+.answer::before {
+  content: "";
+  position: absolute;
+  width: 0.6rem;
+  height: 90%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.answer p {
+  font-family: sans-serif;
+  color: #ffffff;
+  padding: 2rem;
+}
+
+.ques:target .answer {
+  max-height: 20rem;
+}
+
+.q img, .q p {
+  max-height: 20px;
+  max-width: 20px;
+}
+
+.q .crossWhite {
+  display: none;
+}
+
+.ques:target .q .downArrowWhite {
+  display: none;
+}
+
+.ques:target .q .crossWhite {
+  display: block;
+}
