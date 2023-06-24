@@ -3,6 +3,11 @@
   src: url("assets/fonts/artega.otf");
 }
 
+@font-face {
+  font-family: "Poppins";
+  src: url("assets/fonts/poppins.otf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -197,7 +202,7 @@ header {
 
 .sub-text {
   text-align: center;
-  font-family: sans-serif;
+  font-family: Poppins;
   font-size: 2vmin;
   color: var(--secondary-color);
   font-weight: 400;
@@ -257,7 +262,7 @@ header {
 }
 
 #description {
-  font-family: sans-serif;
+  font-family: Poppins;
 }
 
 .whyTitle {
@@ -434,7 +439,7 @@ header {
 .content {
   color: #ffffff;
   font-size: 2vmin;
-  font-family: sans-serif;
+  font-family: Poppins;
   line-height: 4vmin;
 }
 
@@ -456,7 +461,7 @@ header {
 .content2 {
   color: #ffffff;
   font-size: 2vmin;
-  font-family: sans-serif;
+  font-family: Poppins;
   line-height: 4vmin;
 }
 
@@ -471,11 +476,11 @@ header {
   color: #ffffff;
   font-size: 36px;
   font-weight: 600;
-  font-family: sans-serif;
+  font-family: Poppins;
 }
 
 .email {
-  font-family: sans-serif;
+  font-family: Poppins;
   size: 30px;
   font-size: 16px;
   font-weight: 500;
@@ -491,7 +496,7 @@ header {
 
 button {
   background-color: #f2c747;
-  font-family: sans-serif;
+  font-family: Poppins;
   border-radius: 30px;
   font-size: 16px;
   font-weight: 600;
@@ -538,7 +543,7 @@ button {
 }
 
 .contact p {
-  font-family: sans-serif;
+  font-family: Poppins;
   color: #ffffff;
   font-size: 20px;
   font-weight: 500;
@@ -639,7 +644,7 @@ button {
   margin-top: 10px;
   background-color: black;
   color: #ffffff;
-  font-family: sans-serif;
+  font-family: Poppins;
   font-size: small;
   width: 13vmin;
   height: 5vmin;
