@@ -54,6 +54,52 @@ header {
   z-index: 2;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 40px;
+
+}
+
+.navbar-logo img {
+  height: 40px;
+}
+
+.navbar-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+
+}
+
+.navbar-links li {
+  margin-left: 100px;
+}
+
+.navbar-links li:first-child {
+  margin-left: 0;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-size: 16px;
+  color: var(--secondary-color);
+}
+
+.button {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  padding: 10px 40px;
+  border-radius: 250px;
+  font-family: "Poppins";
+  width: max-content;
+}
+
+
 /* */
 .hero {
   padding-top: 200px;
@@ -83,7 +129,7 @@ header {
   margin-top: 0px;
 }
 
-.hero > * {
+.hero>* {
   margin-inline-start: 2%;
 }
 
@@ -106,6 +152,7 @@ header {
 }
 
 @media (max-width: 1000px) {
+
   /* Hide holding image*/
   .intro-img {
     height: 0;
@@ -209,7 +256,7 @@ header {
   margin-inline: 2%;
 }
 
-.seamless-header > * {
+.seamless-header>* {
   flex: 1 1 auto;
   display: grid;
   align-content: center;
@@ -244,7 +291,7 @@ header {
   grid-template-columns: 1fr 1fr;
 }
 
-.seamless-grid > * {
+.seamless-grid>* {
   box-shadow: 14px 4px rgba(0, 0, 0, 0.73);
   border-radius: 25px;
 }
@@ -260,7 +307,7 @@ header {
   grid-column: span 2;
 }
 
-.img-wrapper > img {
+.img-wrapper>img {
   max-width: 80%;
   aspect-ratio: 1 / 1.16;
   object-fit: cover;
@@ -307,11 +354,11 @@ header {
   flex-direction: column;
 }
 
-.seamless-cell > * {
+.seamless-cell>* {
   margin-inline: 10%;
 }
 
-.assured-img > img {
+.assured-img>img {
   max-width: 100%;
   aspect-ratio: 1.56 / 1;
   object-fit: cover;
@@ -331,7 +378,7 @@ header {
   grid-row: span 3;
 }
 
-.buy-in-img > img {
+.buy-in-img>img {
   max-width: 100%;
   aspect-ratio: 0.63 / 1;
   object-fit: cover;
@@ -347,7 +394,7 @@ header {
 
 /* Fourth Grid CelL */
 
-.delivery-img > img {
+.delivery-img>img {
   max-width: 100%;
   aspect-ratio: 2.46 / 1;
   object-fit: cover;
