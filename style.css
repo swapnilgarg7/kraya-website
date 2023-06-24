@@ -3,6 +3,11 @@
   src: url("assets/fonts/artega.otf");
 }
 
+@font-face {
+  font-family: "Poppins";
+  src: url("assets/fonts/poppins.otf");
+}
+
 :root {
   --primary-color: #f2c747;
   --secondary-color: #ffffff;
@@ -121,7 +126,7 @@ header {
 
 .sub-text {
   text-align: center;
-  font-family: sans-serif;
+  font-family: Poppins;
   font-size: 24px;
   color: var(--secondary-color);
   font-weight: 400;
@@ -153,7 +158,7 @@ header {
 }
 
 #description {
-  font-family: sans-serif;
+  font-family: Poppins;
 }
 
 .steps {
@@ -219,7 +224,8 @@ header {
 }
 
 .seamless-intro {
-  font-size: 0.75rem;
+  font-family: "Poppins";
+  font-size: 1.1rem;
   color: var(--secondary-color);
   text-align: center;
 }
@@ -277,7 +283,8 @@ header {
 
 .seamless-info-text,
 .assured-info-text {
-  font-size: 0.75rem;
+  font-family: "Poppins";
+  font-size: 1.1rem;
 }
 
 .seamless-info-text {
@@ -313,7 +320,8 @@ header {
 }
 
 .seamless-cell-text {
-  font-size: 0.75rem;
+  font-family: "Poppins";
+  font-size: 1.1rem;
   margin-bottom: 5%;
 }
 
@@ -370,8 +378,8 @@ header {
   width: 30%;
   margin-left: 20%;
   border-radius: 50px;
-  padding: 16px 5px;
-  margin-bottom: 10%;
+  padding: 14px 5px;
+  margin-bottom: 13%;
 }
 
 .cta {
@@ -449,9 +457,9 @@ header {
   margin-top: 10px;
   background-color: black;
   color: #ffffff;
-  font-family: sans-serif;
+  font-family: Poppins;
   font-size: small;
-  width: 14.5vmin;
+  width: 15vmin;
   height: 5vmin;
   font-size: 1.3vmin;
 }
@@ -471,11 +479,11 @@ header {
   color: var(--secondary-color);
   font-size: 36px;
   font-weight: 600;
-  font-family: sans-serif;
+  font-family: Poppins;
 }
 
 .email {
-  font-family: sans-serif;
+  font-family: Poppins;
   size: 30px;
   font-size: 16px;
   font-weight: 500;
@@ -491,7 +499,7 @@ header {
 
 button {
   background-color: var(--primary-color);
-  font-family: sans-serif;
+  font-family: Poppins;
   border-radius: 30px;
   font-size: 16px;
   font-weight: 600;
@@ -538,7 +546,7 @@ button {
 }
 
 .contact p {
-  font-family: sans-serif;
+  font-family: Poppins;
   color: var(--secondary-color);
   font-size: 20px;
   font-weight: 500;
