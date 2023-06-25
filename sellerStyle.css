@@ -702,6 +702,7 @@ button {
 
 .faq-container {
   background-color: #1f1f1f;
+  padding-bottom: 10rem;
 }
 
 .faq-container .title {
@@ -711,78 +712,76 @@ button {
   padding-bottom: 4rem;
 }
 
-.faqs {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.faq {
+  background-color: #313131;
+  cursor: pointer;
   color: white;
-  padding: 0 1.5rem;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 2rem;
 
 }
+
+
 
 .ques {
-  background-color: #313131;
-  border-radius: 15px;
-  margin-bottom: 20px;
-  padding: 25px;
-}
-
-.q {
-  font-size: 20px;
-  font-family: sans-serif;
-  color: #ffffff;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  text-decoration: none;
+
 }
 
 .answer {
   max-height: 0;
   overflow: hidden;
-  position: relative;
-  transition: 650ms;
+  transition: max-height 1s ease-in-out;
+}
+
+.faq.active .answer {
+  max-height: 300px;
+  animation: fade 1s ease-in-out;
+
+
+}
+
+.faq.active img {
+  transform: rotate(180deg);
+}
+
+img {
+  transition: transform 0.5s ease;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.faq h3 {
+  font-family: "Poppins";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.faq p {
+  font-family: "Poppins";
+  font-size: 1.2rem;
+  padding-top: 2rem;
 }
 
 
-.answer::before {
-  content: "";
-  position: absolute;
-  width: 0.6rem;
-  height: 90%;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-}
-
-.answer p {
-  font-family: sans-serif;
-  color: #ffffff;
-  padding: 2rem;
-}
-
-.ques:target .answer {
-  max-height: 20rem;
-}
-
-.q img,
-.q p {
-  max-height: 20px;
+.faq img {
   max-width: 20px;
-}
-
-.q .crossWhite {
-  display: none;
-}
-
-.ques:target .q .downArrowWhite {
-  display: none;
-}
-
-.ques:target .q .crossWhite {
-  display: block;
+  max-height: 20px;
 }
 
 .emailid {
