@@ -188,21 +188,57 @@ header {
 }
 
 /* Styles for seamless section of the webpage */
+.seamless{
+    position:relative;
+
+}
+
+.star-1{
+    position: absolute;
+    top: 40vh;
+    right: 4.5vw;
+}
+
+.star-2{
+    position: absolute;
+    bottom: 72vh;
+    margin-left:13%;
+}
+
+.star-3{
+    position:absolute;
+    overflow-x: hidden;
+    margin-left: -84px;
+    bottom: 60vh;
+}
+
+.star-4{
+    position: absolute;
+    bottom: 40vh;
+    right: 4.5vw;
+}
+
 .seamless-header {
     display: flex;
     font-size: 3rem;
     margin-inline: 2%;
 }
 
-.seamless-header>* {
+.seamless-header > * {
     flex: 1 1 auto;
     display: grid;
     align-content: center;
 }
 
-.seamless-star {
+.seamless-star-large.header-star{
     justify-content: right;
 }
+
+.header-star{
+    flex-basis: 20%;
+}
+
+
 
 .seamless-heading {
     color: var(--primary-color);
@@ -220,7 +256,7 @@ header {
 }
 
 .seamless-grid {
-    margin-inline: 10%;
+    margin-inline: 20%;
     margin-top: 50px;
     display: grid;
     color: white;
@@ -233,9 +269,6 @@ header {
     border-radius: 25px;
 }
 
-.seamless-blank {
-    height: 200px;
-}
 
 /* Styling individual grid cells */
 
@@ -313,9 +346,9 @@ header {
     grid-row: span 3;
 }
 
-.buy-in-img>img {
+.buy-in-img > img {
     max-width: 100%;
-    aspect-ratio: 0.63 / 1;
+    aspect-ratio: 0.82 / 1;
     object-fit: cover;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -324,7 +357,6 @@ header {
 .buy-in-img {
     display: flex;
     justify-content: center;
-    margin-left: 20%;
 }
 
 /* Fourth Grid CelL */
@@ -468,4 +500,36 @@ button {
     font-size: 20px;
     font-weight: 500;
     font-style: normal;
+}
+
+
+.seamless-footer{
+    display: flex;
+    
+}
+
+.seamless-footer > *{
+    flex: 1 1 auto;
+}
+
+.seamless-right-footer{
+    display:flex;
+    justify-content: right;
+}
+
+.offscreen-right-star{
+    overflow-x: hidden;
+    margin-right: -84px;
+    transform: scaleX(1.2);
+}
+
+.RightStarPositioner{
+    margin-right: 10%;
+    align-self: center;
+}
+
+.seamless-left-footer{
+    align-self: flex-end;
+    margin-bottom: 2%;
+    margin-left: 10%;
 }
