@@ -304,9 +304,10 @@ nav {
 }
 
 .seamless-intro {
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   color: var(--secondary-color);
   text-align: center;
+  font-family: "Poppins";
 }
 
 /* Styles for seamless grid */
@@ -355,11 +356,13 @@ nav {
   flex-direction: column;
   justify-content: center;
   margin-inline: 10%;
+
 }
 
 .seamless-info-text,
 .assured-info-text {
-  font-size: 0.75rem;
+  font-size: 0.9rem;
+  font-family: "Poppins";
 }
 
 .seamless-info-text {
@@ -395,8 +398,9 @@ nav {
 }
 
 .seamless-cell-text {
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   margin-bottom: 5%;
+  font-family: "Poppins";
 }
 
 /* Third Grid Cell */
@@ -448,10 +452,12 @@ nav {
 
 .web-app-btn {
   background-color: var(--primary-color);
-  width: 30%;
+  width: 40%;
   margin-left: 20%;
   border-radius: 50px;
-  padding: 16px 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 1rem;
   margin-bottom: 10%;
 }
 
@@ -616,6 +622,7 @@ button {
 .contact {
   padding-top: 130px;
   padding-bottom: 50px;
+
 }
 
 .contact p {
@@ -625,6 +632,7 @@ button {
   font-weight: 500;
   font-style: normal;
 }
+
 
 .seamless-footer {
   display: flex;
@@ -656,4 +664,11 @@ button {
   align-self: flex-end;
   margin-bottom: 2%;
   margin-left: 10%;
+}
+
+.emailid {
+  font-family: Poppins;
+  cursor: pointer;
+  color: var(--secondary-color);
+  text-decoration: none;
 }

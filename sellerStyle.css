@@ -784,3 +784,10 @@ button {
 .ques:target .q .crossWhite {
   display: block;
 }
+
+.emailid {
+  font-family: Poppins;
+  cursor: pointer;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
