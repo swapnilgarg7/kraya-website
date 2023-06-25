@@ -245,11 +245,38 @@ nav {
   border-radius: 25px;
 }
 
+/* Styles for seamless section of the webpage */
 .seamless {
-  background-color: var(--background-color);
+  position: relative;
+  background-color: #1f1f1f;
+
 }
 
-/* Styles for seamless section of the webpage */
+.star-1 {
+  position: absolute;
+  top: 40vh;
+  right: 4.5vw;
+}
+
+.star-2 {
+  position: absolute;
+  bottom: 72vh;
+  margin-left: 13%;
+}
+
+.star-3 {
+  position: absolute;
+  overflow-x: hidden;
+  margin-left: -84px;
+  bottom: 60vh;
+}
+
+.star-4 {
+  position: absolute;
+  bottom: 40vh;
+  right: 4.5vw;
+}
+
 .seamless-header {
   display: flex;
   font-size: 3rem;
@@ -262,17 +289,22 @@ nav {
   align-content: center;
 }
 
-.seamless-star {
+.seamless-star-large.header-star {
   justify-content: right;
 }
+
+.header-star {
+  flex-basis: 20%;
+}
+
+
 
 .seamless-heading {
   color: var(--primary-color);
 }
 
 .seamless-intro {
-  font-family: "Poppins";
-  font-size: 1.1rem;
+  font-size: 0.75rem;
   color: var(--secondary-color);
   text-align: center;
 }
@@ -283,7 +315,7 @@ nav {
 }
 
 .seamless-grid {
-  margin-inline: 10%;
+  margin-inline: 20%;
   margin-top: 50px;
   display: grid;
   color: white;
@@ -296,9 +328,6 @@ nav {
   border-radius: 25px;
 }
 
-.seamless-blank {
-  height: 200px;
-}
 
 /* Styling individual grid cells */
 
@@ -330,8 +359,7 @@ nav {
 
 .seamless-info-text,
 .assured-info-text {
-  font-family: "Poppins";
-  font-size: 1.1rem;
+  font-size: 0.75rem;
 }
 
 .seamless-info-text {
@@ -367,8 +395,7 @@ nav {
 }
 
 .seamless-cell-text {
-  font-family: "Poppins";
-  font-size: 1.1rem;
+  font-size: 0.75rem;
   margin-bottom: 5%;
 }
 
@@ -380,7 +407,7 @@ nav {
 
 .buy-in-img>img {
   max-width: 100%;
-  aspect-ratio: 0.63 / 1;
+  aspect-ratio: 0.82 / 1;
   object-fit: cover;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -389,7 +416,6 @@ nav {
 .buy-in-img {
   display: flex;
   justify-content: center;
-  margin-left: 20%;
 }
 
 /* Fourth Grid CelL */
@@ -425,8 +451,8 @@ nav {
   width: 30%;
   margin-left: 20%;
   border-radius: 50px;
-  padding: 14px 5px;
-  margin-bottom: 13%;
+  padding: 16px 5px;
+  margin-bottom: 10%;
 }
 
 .cta {
@@ -598,4 +624,36 @@ button {
   font-size: 20px;
   font-weight: 500;
   font-style: normal;
+}
+
+.seamless-footer {
+  display: flex;
+  background-color: #1f1f1f;
+
+}
+
+.seamless-footer>* {
+  flex: 1 1 auto;
+}
+
+.seamless-right-footer {
+  display: flex;
+  justify-content: right;
+}
+
+.offscreen-right-star {
+  overflow-x: hidden;
+  margin-right: -84px;
+  transform: scaleX(1.2);
+}
+
+.RightStarPositioner {
+  margin-right: 10%;
+  align-self: center;
+}
+
+.seamless-left-footer {
+  align-self: flex-end;
+  margin-bottom: 2%;
+  margin-left: 10%;
 }
