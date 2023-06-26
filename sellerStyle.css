@@ -51,7 +51,6 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 40px 40px;
-
 }
 
 .navbar-logo img {
@@ -64,7 +63,6 @@ nav {
   padding: 0;
   display: flex;
   align-items: center;
-
 }
 
 .navbar-links li {
@@ -143,10 +141,10 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 2vmin;
 }
 
-.social>p {
+.social > p {
   width: auto;
   height: auto;
   font-size: 23vmin;
@@ -162,7 +160,7 @@ nav {
   align-items: center;
 }
 
-.selling>p {
+.selling > p {
   width: auto;
   height: auto;
   font-size: 23vmin;
@@ -176,11 +174,11 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: -5%;
-  padding-bottom: 50px;
+  margin-left: -0.5vmin;
+  padding-bottom: 2vmin;
 }
 
-.simple>p {
+.simple > p {
   margin-left: 2vmin;
   width: auto;
   height: auto;
@@ -193,7 +191,7 @@ nav {
   color: #f2c747;
 }
 
-.madeContent>p {
+.madeContent > p {
   width: 1px;
   height: auto;
   font-size: 1vmin;
@@ -220,7 +218,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 15%;
 }
 
 .phones img {
@@ -320,7 +317,7 @@ nav {
   align-items: center;
 }
 
-.whyTitle>p {
+.whyTitle > p {
   margin-top: 4vmin;
   color: #f2c747;
   width: auto;
@@ -722,16 +719,12 @@ button {
   margin-left: 1rem;
   margin-right: 1rem;
   padding: 2rem;
-
 }
-
-
 
 .ques {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .answer {
@@ -743,8 +736,6 @@ button {
 .faq.active .answer {
   max-height: 300px;
   animation: fade 1s ease-in-out;
-
-
 }
 
 .faq.active img {
@@ -778,7 +769,6 @@ img {
   font-size: 1.2rem;
   padding-top: 2rem;
 }
-
 
 .faq img {
   max-width: 20px;
