@@ -103,6 +103,7 @@ body {
       rgba(164, 164, 164, 0.19) 0%,
       rgba(0, 0, 0, 0.697) 100%);
   box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(25px);
   backdrop-filter: blur(25px);
 }
 
