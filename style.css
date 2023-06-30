@@ -58,7 +58,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 40px 40px;
+  padding: 40px;
 
 }
 
@@ -110,13 +110,13 @@ nav {
 
 .main-slogan {
   color: var(--primary-color);
-  font-size: 6rem;
+  font-size: 5rem;
   line-height: 1;
 }
 
 .intro {
   color: var(--secondary-color);
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .intro-text {
@@ -124,13 +124,31 @@ nav {
   margin-top: 20px;
 }
 
+
 .intro-img {
   max-height: 600px;
   margin-top: 0px;
+  margin-inline-start: 0%;
 }
 
 .hero>* {
   margin-inline-start: 2%;
+}
+
+.intro-img-wrapper {
+  position: relative;
+}
+
+
+
+.hero-video {
+  position: absolute;
+  left: 82px;
+  top: 10px;
+  border-radius: 20px;
+  width: 170px;
+  height: 360px;
+  object-fit: cover;
 }
 
 .downArrow {
