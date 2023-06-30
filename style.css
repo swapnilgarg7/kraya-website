@@ -49,13 +49,13 @@ header {
 
 .main-slogan {
     color: var(--primary-color);
-    font-size: 6rem;
+    font-size: 5rem;
     line-height: 1;
 }
 
 .intro {
     color: var(--secondary-color);
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 .intro-text {
@@ -64,13 +64,16 @@ header {
 
 }
 
-.intro-img {
-    max-height: 600px;
-    margin-top: 0px;
-}
+
 
 .hero>* {
     margin-inline-start: 2%;
+}
+
+.intro-img {
+    max-height: 600px;
+    margin-top: 0px;
+    margin-inline-start: 0%;
 }
 
 .downArrow {
@@ -99,6 +102,9 @@ header {
         height: 0;
     }
 
+    .hero-video{
+        visibility: hidden;
+    }
     .downArrow {
         visibility: hidden;
     }
@@ -128,6 +134,22 @@ header {
     padding: 4rem;
     gap: 97px;
 }
+
+.intro-img-wrapper{
+    position: relative;
+}
+
+
+
+.hero-video{
+    position:absolute;
+    left: 54px;
+    top: 10px;  
+    border-radius:20px;
+}
+
+
+
 
 .step-1,
 .step-2,
