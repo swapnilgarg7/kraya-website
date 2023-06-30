@@ -110,13 +110,13 @@ nav {
 
 .main-slogan {
   color: var(--primary-color);
-  font-size: 5rem;
+  font-size: 6rem;
   line-height: 1;
 }
 
 .intro {
   color: var(--secondary-color);
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 .intro-text {
