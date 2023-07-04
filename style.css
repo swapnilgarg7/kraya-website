@@ -151,6 +151,12 @@ nav {
   object-fit: cover;
 }
 
+.intro-img {
+    max-height: 600px;
+    margin-top: 0px;
+    margin-inline-start: 0%;
+}
+
 .downArrow {
   position: absolute;
   bottom: 0;
@@ -204,6 +210,22 @@ nav {
   padding: 4rem;
   gap: 97px;
 }
+
+.intro-img-wrapper{
+    position: relative;
+}
+
+
+
+.hero-video{
+    position:absolute;
+    left: 54px;
+    top: 10px;  
+    border-radius:20px;
+}
+
+
+
 
 .step-1,
 .step-2,
