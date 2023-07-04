@@ -9,11 +9,22 @@
 
   <title>Kraya</title>
   <link rel="icon" href="./assets/logo.png" type="image/x-icon" />
+
 </head>
 
 <body>
+
   <header>
-    <nav class="navbar"></nav>
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <a href="index.html"><img src="assets/kraya.png" alt="Logo"></a>
+      </div>
+      <ul class="navbar-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#faqs">FAQ</a></li>
+        <li><button class="button" href="#">Apply to sell</button></li>
+      </ul>
+    </nav>
   </header>
   <div class="sellerHero">
     <div class="gridContainer">
@@ -44,7 +55,7 @@
     </div>
   </div>
 
-  <div class="onboard">
+  <div class="onboard" id="about">
     <div class="star1">
       <img src="assets/starMediumBlack.png" alt="starMedium1" />
     </div>
@@ -177,12 +188,90 @@
     </div>
   </div>
 
+  <div class="faq-container" id="faqs">
+
+    <p class="title">FAQ'S</p>
+
+    <div class="faq">
+      <div class="ques">
+        <h3>What is Kraya?</h3>
+        <img class="downArrowWhite" src="assets/downArrowWhite.png">
+      </div>
+      <div class="answer">
+        <p>
+          Kraya helps social sellers and small businesses to boost their sales
+          through the power of social media. Our app makes it easy for social
+          sellers to create and manage their online storefronts, connect with
+          customers, and track their sales and analytics all in one place.
+        </p>
+      </div>
+    </div>
+    <div class="faq">
+      <div class="ques">
+        <h3>Why Kraya?</h3>
+        <img class="downArrowWhite" src="assets/downArrowWhite.png">
+      </div>
+      <div class="answer">
+        <p>
+          Kraya helps social sellers and small businesses to boost their sales
+          through the power of social media. Our app makes it easy for social
+          sellers to create and manage their online storefronts, connect with
+          customers, and track their sales and analytics all in one place.
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="ques">
+        <h3>Benefits for Sellers?</h3>
+        <img class="downArrowWhite" src="assets/downArrowWhite.png">
+      </div>
+      <div class="answer">
+        <p>
+          Kraya helps social sellers and small businesses to boost their sales
+          through the power of social media. Our app makes it easy for social
+          sellers to create and manage their online storefronts, connect with
+          customers, and track their sales and analytics all in one place.
+        </p>
+      </div>
+    </div>
+    <div class="faq">
+      <div class="ques">
+        <h3>Benefits for Buyers?</h3>
+        <img class="downArrowWhite" src="assets/downArrowWhite.png">
+      </div>
+      <div class="answer">
+        <p>
+          Kraya helps social sellers and small businesses to boost their sales
+          through the power of social media. Our app makes it easy for social
+          sellers to create and manage their online storefronts, connect with
+          customers, and track their sales and analytics all in one place.
+        </p>
+      </div>
+    </div>
+    <img class="faqStar1" src="assets/starMedium.png">
+    <img class="faqStar2" src="assets/starSmall.png">
+    <img class="faqStar3" src="assets/starSmall.png">
+    <img class="faqStar4" src="assets/starSmall.png">
+    <img class="faqStar5" src="assets/starMedium.png">
+  </div>
+
 
   <div class="cta">
-    <h1>Get Onboard</h1>
-    <h1>Today</h1>
+    <div class="circle left1"></div>
+    <div class="circle left2"></div>
+    <div class="circle left3"></div>
+    <div class="circle left4"></div>
+    <div class="circle left5"></div>
+    <h1 class="onboardText">Get Onboard</h1>
+    <h1 class="onboardText">Today</h1>
     <button class="visit">Apply to Sell</button>
 
+    <div class="circle right1"></div>
+    <div class="circle right2"></div>
+    <div class="circle right3"></div>
+    <div class="circle right4"></div>
+    <div class="circle right5"></div>
   </div>
 
   <footer class="footer">
@@ -195,22 +284,29 @@
       </div>
 
       <div class="soc-med">
-        <a href="https://www.facebook.com/profile.php?id=100090694372072"><img src="assets/fb.png"
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100090694372072"><img src="assets/fb.png"
             alt="facebook-logo"></a>
-        <a href="https://www.linkedin.com/company/krayadotshop/"><img src="assets/li.png" alt="linkin-logo"></a>
-        <a href="https://www.instagram.com/krayadotshop/"><img src="assets/insta.png" alt="insta-logo"></a>
+        <a target="_blank" href="https://www.linkedin.com/company/krayadotshop/"><img src="assets/li.png"
+            alt="linkin-logo"></a>
+        <a target="_blank" href="https://www.instagram.com/krayadotshop/"><img src="assets/insta.png"
+            alt="insta-logo"></a>
 
       </div>
 
       <div class="contact">
         <p>Contact Us:</p>
-        <p>sharmaayush41913@gmail.com</p>
+        <p><a class="emailid" href="mailto:sharmaayush41913@gmail.com">sharmaayush41913@gmail.com</p>
       </div>
     </div>
 
+    <div class="logo">
+      <img src="assets/KrayaLogo.png" alt="kraya-logo" />
+    </div>
+  </footer>
 
 
-    <script src="index.js"></script>
+
+  <script src="seller.js"></script>
 </body>
 
 </html>
