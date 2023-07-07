@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: "PoppinsSemiBold";
-  src: url(assets/fonts/poppinsSemiBold.otf);
+  src: url("assets/fonts/poppinsSemiBold.otf");
 }
 
 * {
