@@ -152,9 +152,9 @@ nav {
 }
 
 .intro-img {
-    max-height: 600px;
-    margin-top: 0px;
-    margin-inline-start: 0%;
+  max-height: 600px;
+  margin-top: 0px;
+  margin-inline-start: 0%;
 }
 
 .downArrow {
@@ -211,17 +211,17 @@ nav {
   gap: 97px;
 }
 
-.intro-img-wrapper{
-    position: relative;
+.intro-img-wrapper {
+  position: relative;
 }
 
 
 
-.hero-video{
-    position:absolute;
-    left: 54px;
-    top: 10px;  
-    border-radius:20px;
+.hero-video {
+  position: absolute;
+  left: 54px;
+  top: 10px;
+  border-radius: 20px;
 }
 
 
@@ -713,34 +713,47 @@ button {
   text-decoration: none;
 }
 
-@media (max-width: 900px){
-  .frame{
+@media (max-width: 900px) {
+  .frame {
     flex-direction: column;
     justify-content: center;
   }
-  .heading{
+
+  .heading {
     font-size: 5vw;
   }
-  .sub-text{
+
+  .sub-text {
     font-size: 15px;
     color: #a4a4a4;
   }
-  .heading{
+
+  .heading {
     font-size: 32px;
   }
-  .star1, .star2, .star3, .star4{
+
+  .star1,
+  .star2,
+  .star3,
+  .star4 {
     display: none;
   }
-  
-  #description{
+
+  #description {
     font-size: 15px;
-    font-family: Poppins, sans-serif; 
+    font-family: Poppins, sans-serif;
     color: #a4a4a4;
   }
-  .step-1, .step-2, .step-3{
+
+  .step-1,
+  .step-2,
+  .step-3 {
     width: 100%;
+    margin-top: 50px;
   }
-  .step-1 #number, .step-3 #number{
+
+  .step-1 #number,
+  .step-3 #number {
     color: rgba(255, 255, 255, 0.15);
     opacity: 0.5;
     position: absolute;
@@ -748,7 +761,8 @@ button {
     margin-top: -125px;
     font-size: 150px;
   }
-  .step-2 #number{
+
+  .step-2 #number {
     color: rgba(255, 255, 255, 0.15);
     opacity: 0.5;
     position: absolute;
@@ -756,7 +770,10 @@ button {
     margin-top: -120px;
     font-size: 150px;
   }
-  .blank{
+
+  .blank {
     height: 25px;
   }
+
+
 }
