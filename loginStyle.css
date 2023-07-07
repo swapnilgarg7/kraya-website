@@ -40,6 +40,10 @@ body {
   overflow-x: hidden;
 }
 
+*:visited{
+  color: white;
+}
+
 .main {
   width: 100%;
   height: 100%;
@@ -110,12 +114,105 @@ body {
 .loginBox {
   border-radius: 20px;
   background: url("assets/bgrect.png"),
-    rgb(97, 97, 97) 0% 0% / 100px 100px repeat;
-  opacity: 0.3;
+    rgba(97, 97, 97, 0.1) 0% 0% / 100px 100px repeat;
+  
   color: white;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%;
+  
+}
+
+form {
+  text-align: center;
+}
+
+form * {
+  margin-top: 5%;
+}
+
+input::placeholder{
+  color: white;
+
+}
+input[type =  "text"], [type = "password"]{
+  border-color: white;
+  background: rgba(97, 97, 97, 0.1) 0% 0%;
+  border-radius: 5px;
+  height: 50px;
+  width: 70%;
+  margin-top: 2.5%;
+  color: white;
+  padding: 1% 3%;
+}
+
+.loginBox-header{
+  padding-top: 4%;
+  margin-bottom: 8%;
+  display: flex;
+  justify-content: center;
+  font-size: 1.75em;
+  color: white;
+  opacity: 1;
+}
+
+.login-options{
+  display: flex;
+}
+
+.login-options > *{
+  flex: 1;
+}
+
+.privacy-text, .signUp-text{
+  margin-top: 5%;
+  font-size: 0.75em;
+  margin-right: 5%;
+}
+
+#login{
+  background-color: #f2c747;
+  color: black;
+  padding: 10px 40px;
+  border-radius: 250px;
+  width: max-content;
+  width: 70%;
+}
+
+.api-options{
+  text-align: center;
+}
+
+.google-button, .facebook-button{
+  display: flex;
+  width: 80%;
+  height: 40px;
+  margin-top: 4%;
+  border: 1px solid white;
+  color: white;
+  padding: 1% 3%;
+  border-radius:  25px;
+  font-size: 0.75em;
+}
+.facebook-button{
+  background-color: #1778F2;
+  border: 1px solid #1778F2;
+  
+}
+
+.google-button> *, .facebook-button{
+  display: flex;
+  align-items: center;
+}
+
+
+.google-button > svg, .facebook-button > svg{
+  margin-right: 5%;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
 }
