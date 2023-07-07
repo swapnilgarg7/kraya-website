@@ -712,3 +712,51 @@ button {
   color: var(--secondary-color);
   text-decoration: none;
 }
+
+@media (max-width: 400px){
+  .frame{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .heading{
+    font-size: 40px;
+  }
+  .sub-text{
+    font-size: 15px;
+    color: #a4a4a4;
+  }
+  .heading{
+    font-size: 32px;
+  }
+  .star1, .star2, .star3, .star4{
+    display: none;
+  }
+  
+  #description{
+    font-size: 15px;
+    font-family: Poppins, sans-serif; 
+    color: #a4a4a4;
+  }
+  .step-1, .step-2, .step-3{
+    width: 100%;
+  }
+  .step-1 #number, .step-3 #number{
+    color: rgba(255, 255, 255, 0.15);
+    opacity: 0.5;
+    position: absolute;
+    margin-left: -28px;
+    margin-top: -125px;
+    font-size: 150px;
+  }
+  .step-2 #number{
+    color: rgba(255, 255, 255, 0.15);
+    opacity: 0.5;
+    position: absolute;
+    right: 28px;
+    margin-top: -120px;
+    font-size: 150px;
+  }
+  .blank{
+    height: 25px;
+  }
+}
