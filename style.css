@@ -713,7 +713,7 @@ button {
   text-decoration: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 650px) {
   .frame {
     flex-direction: column;
     justify-content: center;
@@ -732,12 +732,6 @@ button {
     font-size: 32px;
   }
 
-  .star1,
-  .star2,
-  .star3,
-  .star4 {
-    display: none;
-  }
 
   #description {
     font-size: 15px;
@@ -775,7 +769,16 @@ button {
     height: 25px;
   }
 
+
+}
+
+@media (max-width: 900px) {
+
   .header-star,
+  .star1,
+  .star2,
+  .star3,
+  .star4,
   .star-1,
   .star-2,
   .star-3,
@@ -785,6 +788,5 @@ button {
   .offscreen-right-star {
     display: none;
   }
-
 
 }
