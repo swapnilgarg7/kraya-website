@@ -87,6 +87,7 @@ nav {
   border-radius: 250px;
   font-family: "Poppins";
   width: max-content;
+  cursor: pointer;
 }
 
 .sellerHero {
@@ -144,7 +145,7 @@ nav {
   padding-top: 2vmin;
 }
 
-.social > p {
+.social>p {
   width: auto;
   height: auto;
   font-size: 23vmin;
@@ -160,7 +161,7 @@ nav {
   align-items: center;
 }
 
-.selling > p {
+.selling>p {
   width: auto;
   height: auto;
   font-size: 23vmin;
@@ -178,7 +179,7 @@ nav {
   padding-bottom: 2vmin;
 }
 
-.simple > p {
+.simple>p {
   margin-left: 2vmin;
   width: auto;
   height: auto;
@@ -191,7 +192,7 @@ nav {
   color: #f2c747;
 }
 
-.madeContent > p {
+.madeContent>p {
   width: 1px;
   height: auto;
   font-size: 1vmin;
@@ -317,7 +318,7 @@ nav {
   align-items: center;
 }
 
-.whyTitle > p {
+.whyTitle>p {
   margin-top: 4vmin;
   color: #f2c747;
   width: auto;
