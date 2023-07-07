@@ -876,20 +876,25 @@ img {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
 
-  .header-star,
+  .small,
+  .large,
   .star1,
   .star2,
   .star3,
   .star4,
-  .star-1,
-  .star-2,
-  .star-3,
-  .star-4,
-  .seamless-left-footer,
-  .RightStarPositioner,
-  .offscreen-right-star {
+  .whyStar1,
+  .whyStar2,
+  .leftDiamond,
+  .rightDiamond,
+  .leftStars,
+  .rightStars,
+  .faqStar1,
+  .faqStar2,
+  .faqStar3,
+  .faqStar4,
+  .faqStar5 {
     display: none;
   }
 
