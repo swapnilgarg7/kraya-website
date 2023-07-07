@@ -713,13 +713,13 @@ button {
   text-decoration: none;
 }
 
-@media (max-width: 400px){
+@media (max-width: 900px){
   .frame{
     flex-direction: column;
     justify-content: center;
   }
   .heading{
-    font-size: 40px;
+    font-size: 5vw;
   }
   .sub-text{
     font-size: 15px;
