@@ -829,8 +829,11 @@ button {
   }
 
   .get-started {
-    font-size: 20px;
-    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 8px 30px;
+    border-radius: 250px;
+    max-width: fit-content;
   }
 
   .get-started:hover {
@@ -840,5 +843,23 @@ button {
 
   .dropped {
     padding-top: 75px;
+  }
+
+  .main-slogan {
+    font-size: 3rem;
+    display: inline-block;
+  }
+
+  .intro {
+    color: var(--secondary-color);
+    font-size: 0.7rem;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .intro-text {
+    width: 100%;
+    font-family: "Poppins";
   }
 }
