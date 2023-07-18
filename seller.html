@@ -23,12 +23,18 @@
         <li><a href="#about">About</a></li>
         <li><a href="#faqs">FAQ</a></li>
         <li>
-          <a href="/login.html"><button class="button">Apply to sell</button></a>
+          <a href="login.html"><button class="button">Apply to sell</button></a>
         </li>
       </ul>
+      <div class="menu-icon" onclick="dropDown()" id="icon">&#8801;</div>
     </nav>
   </header>
-  <div class="sellerHero">
+  <div class="dropdown" id="dropdown">
+    <a href="#about" class="drop-item">About</a>
+    <a href="#faqs" class="drop-item">FAQ</a>
+    <a href="login.html" class="drop-item apply-to-sell">Apply to Sell</a>
+  </div>
+  <div class="sellerHero" id="sellerHero">
     <div class="gridContainer">
       <div class="leftDiamond">
         <img src="./assets/starLarge.png" />

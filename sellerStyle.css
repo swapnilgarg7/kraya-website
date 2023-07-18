@@ -8,6 +8,13 @@
   src: url("assets/fonts/poppins.otf");
 }
 
+:root {
+  --primary-color: #f2c747;
+  --secondary-color: #ffffff;
+  --accent-color: #302e2e;
+  --background-color: #1f1f1f;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -90,6 +97,16 @@ nav {
   cursor: pointer;
 }
 
+.menu-icon {
+  display: none;
+}
+
+.dropdown {
+  display: none;
+}
+
+/* */
+
 .sellerHero {
   position: relative;
   height: 100%;
@@ -145,7 +162,7 @@ nav {
   padding-top: 2vmin;
 }
 
-.social>p {
+.social > p {
   width: auto;
   height: auto;
   font-size: 23vmin;
@@ -161,7 +178,7 @@ nav {
   align-items: center;
 }
 
-.selling>p {
+.selling > p {
   width: auto;
   height: auto;
   font-size: 23vmin;
@@ -179,7 +196,7 @@ nav {
   padding-bottom: 2vmin;
 }
 
-.simple>p {
+.simple > p {
   margin-left: 2vmin;
   width: auto;
   height: auto;
@@ -192,7 +209,7 @@ nav {
   color: #f2c747;
 }
 
-.madeContent>p {
+.madeContent > p {
   width: 1px;
   height: auto;
   font-size: 1vmin;
@@ -317,7 +334,7 @@ nav {
   align-items: center;
 }
 
-.whyTitle>p {
+.whyTitle > p {
   margin-top: 4vmin;
   color: #f2c747;
   width: auto;
@@ -869,7 +886,6 @@ img {
     font-size: 15px;
   }
 
-
   .step-1 #number,
   .step-3 #number {
     color: rgba(255, 255, 255, 0.15);
@@ -891,7 +907,6 @@ img {
 }
 
 @media (max-width: 1000px) {
-
   .small,
   .large,
   .star1,
@@ -912,4 +927,91 @@ img {
     display: none;
   }
 
+  .navbar-links li {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    float: right;
+    color: #ffffff;
+    font-size: 40px;
+  }
+
+  .cross-icon {
+    display: block;
+    float: right;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-size: 25px;
+  }
+
+  .dropdown-active {
+    width: 100%;
+    position: relative;
+    padding-top: 150px;
+    padding-left: 30px;
+    background-color: #1f1f1f;
+  }
+
+  .drop-item {
+    float: none;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-size: 16px;
+    color: var(--secondary-color);
+    padding: 10px;
+    list-style-type: none;
+  }
+
+  .drop-item:hover {
+    float: none;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-size: 16px;
+    color: #c5c5c5;
+
+    padding: 10px;
+  }
+
+  .apply-to-sell {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 8px 30px;
+    border-radius: 250px;
+    max-width: fit-content;
+  }
+
+  .apply-to-sell:hover {
+    font-size: 20px;
+    color: var(--primary-color);
+  }
+
+  .dropped {
+    padding-top: 0px;
+  }
+}
+
+@media (max-width: 1350px) {
+  .leftDiamond,
+  .rightDiamond {
+    display: none;
+  }
+
+  .social p,
+  .selling p,
+  .simple p {
+    font-size: 20vmin;
+  }
+
+  .madeContent p {
+    width: 1px;
+    height: auto;
+    font-size: 0.8vmin;
+    line-height: 6;
+  }
 }
