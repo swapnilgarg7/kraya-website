@@ -162,7 +162,7 @@ nav {
   padding-top: 2vmin;
 }
 
-.social > p {
+.social>p {
   width: auto;
   height: auto;
   font-size: 23vmin;
@@ -178,7 +178,7 @@ nav {
   align-items: center;
 }
 
-.selling > p {
+.selling>p {
   width: auto;
   height: auto;
   font-size: 23vmin;
@@ -196,7 +196,7 @@ nav {
   padding-bottom: 2vmin;
 }
 
-.simple > p {
+.simple>p {
   margin-left: 2vmin;
   width: auto;
   height: auto;
@@ -209,7 +209,7 @@ nav {
   color: #f2c747;
 }
 
-.madeContent > p {
+.madeContent>p {
   width: 1px;
   height: auto;
   font-size: 1vmin;
@@ -334,7 +334,7 @@ nav {
   align-items: center;
 }
 
-.whyTitle > p {
+.whyTitle>p {
   margin-top: 4vmin;
   color: #f2c747;
   width: auto;
@@ -594,6 +594,10 @@ button {
   height: 2%;
   width: auto;
   object-fit: contain;
+}
+
+.follow {
+  display: none;
 }
 
 .soc-med {
@@ -907,6 +911,7 @@ img {
 }
 
 @media (max-width: 1000px) {
+
   .small,
   .large,
   .star1,
@@ -994,9 +999,78 @@ img {
   .dropped {
     padding-top: 0px;
   }
+
+  .footer {
+    padding: 1.5rem;
+    position: relative;
+  }
+
+  .cap {
+    font-size: 24px;
+  }
+
+  .email {
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    height: 32.335px;
+    width: 226.98px;
+    background: rgba(250, 250, 250, 0.16);
+  }
+
+  button {
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    height: 32.335px;
+    width: 90.31px;
+  }
+
+  .follow {
+    display: block;
+    padding-top: 40px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 500;
+  }
+
+  .soc-med {
+    gap: 7px;
+    padding: 1rem 0 0 0;
+  }
+
+  .soc-med img {
+    height: 30px;
+    border-radius: 9999px;
+    border-width: 2px;
+    border-color: #ffffff;
+  }
+
+  .contact {
+    padding-top: 50px;
+    padding-bottom: 200px;
+  }
+
+  .contact p {
+    font-size: 20px;
+  }
+
+  .logo {
+    height: 2%;
+    width: auto;
+    object-fit: contain;
+    position: absolute;
+    bottom: 140px;
+    left: 70px;
+  }
+
 }
 
 @media (max-width: 1350px) {
+
   .leftDiamond,
   .rightDiamond {
     display: none;
