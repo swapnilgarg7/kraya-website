@@ -390,17 +390,21 @@ nav {
 
   .carousel-slide[data-active]{
     opacity: 1;
-    
   }
 
   .carousel-button{
     display: block;
     z-index: 2;
-    background-color:#f2c747;
+    background-color: #302e2e;
     box-shadow: none;
     height: 10px;
     margin: 2%;
   }
+
+  .carousel-button[data-active-slider]{
+    background-color: #f2c747;
+  }
+
   .carousel-slider{
     background-color: #1f1f1f;
     box-shadow: none;

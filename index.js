@@ -29,11 +29,16 @@ buttons.forEach(button => {
     
     const slides = document.querySelectorAll(".carousel-slide");
     const activeSlide = document.querySelector("[data-active]");
-    
+    const activeSlider = document.querySelector("[data-active-slider]")
     
     if(slides[nextSlideNumber - 1].dataset.active == undefined){
+      
+      button.dataset.activeSlider = true;
       slides[nextSlideNumber - 1].dataset.active = true;
+      
+      delete activeSlider.dataset.activeSlider;
       delete activeSlide.dataset.active;
+
     }
 
   });
