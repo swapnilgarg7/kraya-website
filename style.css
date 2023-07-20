@@ -367,7 +367,7 @@ nav {
 }
 
 /* Styling the carousel for mobile version */
-.carousel-button-next, .carousel-button-prev{
+.carousel-button{
   display: none;
 }
 
@@ -390,13 +390,24 @@ nav {
 
   .carousel-slide[data-active]{
     opacity: 1;
-   
+    
   }
 
-  .carousel-button-next, .carousel-button-prev{
-    cursor: pointer;
+  .carousel-button{
     display: block;
     z-index: 2;
+    background-color:#f2c747;
+    box-shadow: none;
+    height: 10px;
+    margin: 2%;
+  }
+  .carousel-slider{
+    background-color: #1f1f1f;
+    box-shadow: none;
+    width: auto;
+    display: flex;
+    padding-left: 40%;
+    padding-right: 40%; 
   }
 }
 
@@ -446,6 +457,7 @@ nav {
   }
 
   .seamless-info-text{
+    text-align: center;
     margin-right: 0%;
     margin-bottom: 10%;
   }

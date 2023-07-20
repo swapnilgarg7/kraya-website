@@ -21,5 +21,20 @@ function dropDown() {
   }
 }
 
-const button = document.querySelector("carousel-button-next");
+const buttons = document.querySelectorAll(".carousel-button");
 
+buttons.forEach(button => {
+  button.addEventListener("click", () =>{
+    const nextSlideNumber = button.dataset.carousel;
+    
+    const slides = document.querySelectorAll(".carousel-slide");
+    const activeSlide = document.querySelector("[data-active]");
+    
+    
+    if(slides[nextSlideNumber - 1].dataset.active == undefined){
+      slides[nextSlideNumber - 1].dataset.active = true;
+      delete activeSlide.dataset.active;
+    }
+
+  });
+});
