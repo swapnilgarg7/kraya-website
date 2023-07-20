@@ -403,6 +403,7 @@ nav {
 
   .carousel-button[data-active-slider]{
     background-color: #f2c747;
+    flex-basis: 90%;
   }
 
   .carousel-slider{
