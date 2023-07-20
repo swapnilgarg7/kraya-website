@@ -20,3 +20,6 @@ function dropDown() {
     z.className = "menu-icon";
   }
 }
+
+const button = document.querySelector("carousel-button-next");
+

@@ -366,6 +366,40 @@ nav {
   border-radius: 25px;
 }
 
+/* Styling the carousel for mobile version */
+.carousel-button-next, .carousel-button-prev{
+  display: none;
+}
+
+@media(max-width: 650px){
+  .seamless-grid{
+    display: block;
+    margin-inline: 10%;
+  }
+
+  .carousel{
+    width: 80vw;
+    position: relative;
+    height: 120vh;
+  }
+
+  .carousel-slide{
+    position: absolute;
+    opacity: 0;
+  }
+
+  .carousel-slide[data-active]{
+    opacity: 1;
+   
+  }
+
+  .carousel-button-next, .carousel-button-prev{
+    cursor: pointer;
+    display: block;
+    z-index: 2;
+  }
+}
+
 /* Styling individual grid cells */
 
 /* First Grid Cell */
@@ -394,6 +428,8 @@ nav {
   margin-inline: 10%;
 }
 
+
+
 .seamless-info-text,
 .assured-info-text {
   font-size: 0.9rem;
@@ -402,6 +438,21 @@ nav {
 
 .seamless-info-text {
   margin-right: 45%;
+}
+
+@media(max-width: 650px){
+  .curated-content{
+    display: block;
+  }
+
+  .seamless-info-text{
+    margin-right: 0%;
+    margin-bottom: 10%;
+  }
+  
+  .curated-header{
+    text-align: center;
+  }
 }
 
 .img-wrapper {
