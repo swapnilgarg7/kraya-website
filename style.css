@@ -397,22 +397,23 @@ nav {
     z-index: 2;
     background-color: #302e2e;
     box-shadow: none;
-    height: 10px;
+    height: 15px;
     margin: 2%;
   }
 
   .carousel-button[data-active-slider] {
     background-color: #f2c747;
-    flex-basis: 90%;
+    flex-basis: 150%;
   }
 
   .carousel-slider {
     background-color: #1f1f1f;
     box-shadow: none;
-    width: auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
     display: flex;
-    padding-left: 40%;
-    padding-right: 40%;
+    padding-left: 20%;
+    padding-right: 20%;
   }
 }
 
@@ -974,7 +975,7 @@ button {
     background: rgba(250, 250, 250, 0.16);
   }
 
-  button {
+  .submitButton {
     border-radius: 20px;
     font-size: 14px;
     font-weight: 500;
