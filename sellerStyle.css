@@ -517,11 +517,18 @@ nav {
   width: auto;
 }
 
+.head,.head2{
+  margin-bottom: 5%;
+}
 .content2 {
   color: #ffffff;
   font-size: 2vmin;
   font-family: Poppins;
   line-height: 4vmin;
+}
+
+.carousel-slider{
+  display: none;
 }
 
 .footer {
@@ -908,6 +915,7 @@ img {
     margin-top: -80px;
     font-size: 150px;
   }
+
 }
 
 @media (max-width: 1000px) {
@@ -1087,5 +1095,69 @@ img {
     height: auto;
     font-size: 0.8vmin;
     line-height: 6;
+  }
+}
+
+@media (max-width:650px){
+  .image img{
+    width: 70%;
+    display: block;
+  }
+  .why{
+    all: unset;
+  }
+  .text{
+    all: unset;
+    margin: 0px;
+  }
+
+  .content,.content2{
+    margin-inline: 20%;
+  }
+  .whyOuter{
+    height:auto;
+  }
+  picture{
+    display: flex;
+    justify-content: center;
+  }
+  .text2{
+    all: unset;
+  }
+
+  .head, .head2{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .carousel-slider{
+    display: flex;
+    justify-content: center;
+    background-color: #1f1f1f;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  
+  .carousel-slider > *{
+    display: block;
+    z-index: 2;
+    background-color: #302e2e;
+    box-shadow: none;
+    height: 15px;
+    margin-inline: 2%;
+  }
+
+  .carousel-button[data-active-slider]{
+    background-color: #f2c747;
+  }
+
+  .carousel-slide{
+    display: none;
+  }
+
+  .carousel-slide[data-active]{
+    display: block;
   }
 }

@@ -121,14 +121,16 @@
     <p>Why Kraya??</p>
     <img src="./assets/starLarge.png" class="large" />
   </div>
-  <div class="whyOuter one">
+  <div class="whyOuter one carousel-slide" data-active>
     <div class="why one">
-      <div class="image one">
-        <img src="./assets/imgs/why1new.png" />
+      <div class="image one ">
+        <picture>
+          <source media="(max-width: 650px)" srcset="./assets/imgs/carouselwhy1.png">
+          <img src="./assets/imgs/why1new.png" />
+        </picture>
       </div>
       <div class="text one">
         <p class="head one">Customize Your Storefront</p>
-        <br /><br />
         <p class="content one">
           Showcase your brand personality with a customised storefront which
           allows you to infuse your brand's personality, creating a unique and
@@ -150,14 +152,16 @@
     </div>
   </div>
 
-  <div class="whyOuter two">
+  <div class="whyOuter two carousel-slide">
     <div class="why two">
       <div class="image two">
-        <img src="./assets/imgs/why2new.png" />
+        <picture>
+          <source media="(max-width: 650px)" srcset="./assets/imgs/carouselwhy2.png">
+          <img src="./assets/imgs/why2new.png" />
+        </picture>
       </div>
       <div class="text2">
         <p class="head2">Complete Data Control</p>
-        <br /><br />
         <p class="content2">
           View, manage, and track leads all in one place. Access store
           analytics, CTRs, repeat visits, engagement rate, and much more.
@@ -180,14 +184,16 @@
     </div>
   </div>
 
-  <div class="whyOuter three">
+  <div class="whyOuter three carousel-slide">
     <div class="why three">
       <div class="image three">
-        <img src="./assets/imgs/why3new.png" />
+        <picture>
+          <source media="(max-width: 650px)" srcset="./assets/imgs/carouselwhy3.png">
+          <img src="./assets/imgs/why3new.png" />
+        </picture>
       </div>
       <div class="text three">
         <p class="head three">Seamless Selling</p>
-        <br /><br />
         <p class="content three">
           Eliminate all the back-and-forth in DMs. Say goodbye to collecting
           customer data in DMs and instead, get a well-organised list of
@@ -198,7 +204,11 @@
       </div>
     </div>
   </div>
-
+  <div class="carousel-slider">
+    <button class="carousel-button" data-carousel="1" data-active-slider> </button>
+    <button class="carousel-button" data-carousel="2"> </button>
+    <button class="carousel-button" data-carousel="3"> </button>
+  </div>
   <div class="faq-container" id="faqs">
 
     <p class="title">FAQ'S</p>
