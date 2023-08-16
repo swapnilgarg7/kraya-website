@@ -642,9 +642,8 @@ nav {
   color: #ffffff;
   font-family: Poppins;
   font-size: small;
-  width: 15vmin;
-  height: 5vmin;
-  font-size: 1.3vmin;
+  padding: 10px 20px;
+  font-size: 2vmin;
 }
 
 .onboardText {
@@ -848,6 +847,22 @@ button {
 
   .blank {
     height: 25px;
+  }
+
+  .onboardText {
+    font-size: 1.2rem;
+  }
+
+  .cta {
+    height: 40vmin;
+  }
+
+  .visit {
+    font-size: medium;
+  }
+
+  .circle {
+    height: 50vmin;
   }
 
 }

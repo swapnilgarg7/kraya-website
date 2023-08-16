@@ -517,9 +517,11 @@ nav {
   width: auto;
 }
 
-.head,.head2{
+.head,
+.head2 {
   margin-bottom: 5%;
 }
+
 .content2 {
   color: #ffffff;
   font-size: 2vmin;
@@ -527,7 +529,7 @@ nav {
   line-height: 4vmin;
 }
 
-.carousel-slider{
+.carousel-slider {
   display: none;
 }
 
@@ -730,9 +732,8 @@ button {
   color: #ffffff;
   font-family: Poppins;
   font-size: small;
-  width: 13vmin;
-  height: 5vmin;
-  font-size: 1.3vmin;
+  padding: 10px 20px;
+  font-size: 2vmin;
 }
 
 .onboardText {
@@ -914,6 +915,24 @@ img {
     right: 20px;
     margin-top: -80px;
     font-size: 150px;
+  }
+
+
+
+  .onboardText {
+    font-size: 1.2rem;
+  }
+
+  .cta {
+    height: 40vmin;
+  }
+
+  .visit {
+    font-size: medium;
+  }
+
+  .circle {
+    height: 50vmin;
   }
 
 }
@@ -1098,49 +1117,56 @@ img {
   }
 }
 
-@media (max-width:650px){
-  .image img{
+@media (max-width:650px) {
+  .image img {
     width: 70%;
     display: block;
   }
-  .why{
+
+  .why {
     all: unset;
   }
-  .text{
+
+  .text {
     all: unset;
     margin: 0px;
   }
 
-  .content,.content2{
+  .content,
+  .content2 {
     margin-inline: 20%;
   }
-  .whyOuter{
-    height:auto;
+
+  .whyOuter {
+    height: auto;
   }
-  picture{
+
+  picture {
     display: flex;
     justify-content: center;
   }
-  .text2{
+
+  .text2 {
     all: unset;
   }
 
-  .head, .head2{
+  .head,
+  .head2 {
     display: flex;
     justify-content: center;
     margin-top: 5%;
     margin-bottom: 5%;
   }
 
-  .carousel-slider{
+  .carousel-slider {
     display: flex;
     justify-content: center;
     background-color: #1f1f1f;
     padding-top: 5%;
     padding-bottom: 5%;
   }
-  
-  .carousel-slider > *{
+
+  .carousel-slider>* {
     display: block;
     z-index: 2;
     background-color: #302e2e;
@@ -1149,15 +1175,15 @@ img {
     margin-inline: 2%;
   }
 
-  .carousel-button[data-active-slider]{
+  .carousel-button[data-active-slider] {
     background-color: #f2c747;
   }
 
-  .carousel-slide{
+  .carousel-slide {
     display: none;
   }
 
-  .carousel-slide[data-active]{
+  .carousel-slide[data-active] {
     display: block;
   }
 }
