@@ -637,13 +637,13 @@ nav {
 }
 
 .visit {
-  margin-top: 10px;
+
   background-color: black;
   color: #ffffff;
   font-family: Poppins;
   font-size: small;
-  padding: 10px 20px;
-  font-size: 2vmin;
+  padding: 2px 5px;
+  font-size: 1.7vmin;
 }
 
 .onboardText {
