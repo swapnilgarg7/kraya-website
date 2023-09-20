@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Kraya</title>
+    <link rel="icon" href="./assets/logo.png" type="image/x-icon" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <a href="index.html"><img src="assets/kraya.png" alt="Logo" /></a>
+            </div>
+            <ul class="navbar-links" id="dropdown-items">
+                <li><a href="#steps">About</a></li>
+                <li><a href="seller.html">Become A Seller</a></li>
+                <li><button class="button" href="#">Get Started</button></li>
+            </ul>
+            <div class="menu-icon" onclick="dropDown()" id="icon">&#8801;</div>
+        </nav>
+    </header>
+    <div class="dropdown" id="dropdown">
+        <a href="#steps" class="drop-item">About</a>
+        <a href="seller.html" class="drop-item">Become A Seller</a>
+        <a href="#" class="drop-item get-started">Get Started</a>
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="cap">Join our Buyer Community</div>
+
+            <div class="signup">
+                <input type="email" class="email" id="email" placeholder="example@gmail.com" />
+                <button type="submit" id="signup" value="signup" name="signup" class="submitButton">
+                    Sign Up
+                </button>
+            </div>
+
+            <p class="follow">Follow Us:</p>
+            <div class="soc-med">
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100090694372072"><img
+                        src="assets/fb.png" alt="facebook-logo" /></a>
+                <a target="_blank" href="https://www.linkedin.com/company/krayadotshop/"><img src="assets/li.png"
+                        alt="linkedin-logo" /></a>
+                <a target="_blank" href="https://www.instagram.com/krayadotshop/"><img src="assets/insta.png"
+                        alt="insta-logo" /></a>
+            </div>
+
+            <div class="contact">
+                <p>Contact Us:</p>
+                <p>
+                    <a class="emailid" href="mailto:sharmaayush41913@gmail.com">sharmaayush41913@gmail.com</a>
+                </p>
+                <br>
+                <br>
+                <a href="/privacy" class="emailid">Privacy Policy</a>
+                <br>
+                <a href="/terms" class="emailid">Terms of Service</a>
+            </div>
+        </div>
+
+        <div class="logo">
+            <img src="assets/KrayaLogo.png" alt="kraya-logo" />
+        </div>
+    </footer>
+</body>
